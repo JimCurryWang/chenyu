@@ -349,9 +349,9 @@
                 $.ajax({
     
                     type: "POST",
-                    url: "http://chenyutaiwan.com/inc/sendEmail.php",
+                    // url: "http://chenyutaiwan.com/inc/sendEmail.php",
                     // send mail via https://formspree.io/ , replacing the sendEmail.php for cors issue
-                    // url: "https://formspree.io/jimcurrywang@gmail.com",
+                    url: "https://formspree.io/jimcurrywang@gmail.com",
                     data: $(form).serialize(),
                     beforeSend: function() { 
     
