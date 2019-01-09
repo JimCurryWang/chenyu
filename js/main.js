@@ -350,6 +350,7 @@
     
                     type: "POST",
                     // url: "inc/sendEmail.php",
+                    // send mail via https://formspree.io/
                     url: "https://formspree.io/jimcurrywang@gmail.com",
                     data: $(form).serialize(),
                     beforeSend: function() { 
